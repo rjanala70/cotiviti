@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+</head>
+<body>
+    <style>
+        #box{
+            background-color: red;
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+<h1 id="head">Hello</h1>
+<h2 id="head">Hello</h2>
+<h3 id="head">Hello</h3>
+<h4 id="head">Hello</h4>
+<div id="box"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer">
+</script>
+<script>
+    $("h1").click(function(){
+        $("h1").css("color", "blue");
+        $("#box").css("background-color", "blue");
+        $("#box").fadeOut(1000);
+    });
+    
+    $("h2").click(function(){
+        $("h2").css("color", "blue");
+        $("#box").css("background-color", "red");
+        $("#box").fadeIn(1000);
+        $("#box").html("<br>Hello<br>");
+        });
+
+        $("h3").click(function(){
+        $("h3").css("color", "blue");
+        $("#box").css("background-color", "yellow");
+        $("#box").slideUp(1000);
+        });
+
+        $("h4").click(function(){
+        $("h4").css("color", "blue");
+        $("#box").css("background-color", "black");
+        $("#box").css("color", "white");
+        $("#box").html("<u>Hello<u>");
+        $("#box").slideDown(1000);
+        });
+
+        $("window").resize("")
+</script>
+</body>
+</html>

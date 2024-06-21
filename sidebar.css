@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Sidebar{
+    background-color: rgb(143, 37, 136);
+    text-align: center;
+}
+#x{ margin-bottom: 40px;
+}
+.x{
+    background-color: white;
+    padding: 20px 0;
+    width: 70%;
+    justify-content: center;
+}

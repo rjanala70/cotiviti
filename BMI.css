@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.5);
+    width: 250px;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+    background-color: #dddd;
+}
+button{
+    background-color: yellow;
+    width: 100%;
+    height: 20px;
+}
+input {width: 100%;
+height: 20px}

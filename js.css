@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    background-color: #dddd;
+    display: flex;
+    height: 100vh;
+}
+div{ width: 300px;
+   background-color: white;
+    padding: 10px 2px 3px 2px;
+    box-shadow: 3px 2px 3px 4px rgba(0,0,0,0.5);
+    text-align: center;
+}
+#getGrade{
+    background-color: yellow;
+}

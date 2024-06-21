@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+section{ background-color: #999;}
+.hdr{
+    /* width: 400px; */
+    /* height:500px; */
+    background-color: white;
+    padding: 20px;
+    width: 33.33%-20px;
+    
+}
+
+#x{ width: 80%;
+margin-left: auto;
+margin-right: auto;}
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: auto;
+}
+#flex > .hdr{
+    width: calc(33.33% - 20px);
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}

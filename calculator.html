@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <form>
+    <h1>Simple calculator</h1><br><br>
+    <label for="1st">Enter number</label>
+    <br><br>
+    <input type="number" id="st">
+    <br><br>
+    <label for="2nd">Enter number</label><br><br>
+    <input type="number" id="nd"><br><br>
+    <select id="calculation">
+        <option value="sum">Addition(+)</option> 
+        <option value="difference">Subtraction(-)</option>
+        <option value="ratio">Division(/)</option>
+        <option value="product">Multiplication(*)</option>
+        <option value="remainder">Modulus(%)</option>
+    </select>
+    <br><br>
+    <button id="calculate">Calculate</button>
+    <br><br>
+    <label for="result">Result</label><br>
+    <input type="number" id="result">
+</form>
+<script src="calculator.js"></script>
+
+</body>
+</html>

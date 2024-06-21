@@ -1,0 +1,71 @@
+*{ margin:0; padding:0; box-sizing:border-box;}
+header{ background-color: #35176e;
+padding-top: 15px;
+padding-bottom: 15px;}
+#menu li{
+    display: inline-block;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+header nav{ float: right;}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#intro{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #35176e;
+    background-image: url(banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 50% auto;
+}
+.box-white{
+    background: white;
+    width: 50%;
+    padding: 30px 20px;
+}
+box-white small{ color:#7f7f7f;}
+.box-white h2{
+    color: #31006e;
+    margin-bottom: 2%;
+}
+.box-white p{ color:#ec008c;}
+h1{ margin-bottom: 3%;}
+h1{ color: white;}
+#building{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(building.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: auto auto;
+
+}
+#building .container{
+       background-color: white;
+}
+   
+#build{
+    width: 30%;
+    position:   left center;
+    margin-left: 20%;
+}
+#bg-fixed{
+    background-image: url(parallax-home.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+#build p{padding: 20px;
+padding-right: 20px;}
+#join h1{ color: #2e3192;
+text-align: center;
+font-size: 30px;}
+#join { position: center right;}
